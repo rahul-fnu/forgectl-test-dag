@@ -1,7 +1,9 @@
 function greet(name) {
-  const time = new Date().getHours();
-  const greeting = time < 12 ? "Good morning" : "Good afternoon";
-  return `${greeting}, ${name}!`;
+  return `Hello, ${name}! Welcome aboard.`;
 }
 
-module.exports = { greet };
+function farewell(name) {
+  return `Goodbye, ${name}!`;
+}
+
+module.exports = { greet, farewell };
