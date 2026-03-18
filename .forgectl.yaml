@@ -1,0 +1,10 @@
+tracker:
+  kind: github
+  token: $GITHUB_TOKEN
+  repo: rahul-fnu/forgectl-test-dag
+  auto_close: true
+  labels: []
+
+orchestrator:
+  max_concurrent_agents: 3
+  max_retries: 2
